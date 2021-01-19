@@ -1,0 +1,12 @@
+@mixin font($size,$weight,$line: 1,$family: "Poppins") {
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+    line-height: $line;
+    font-style: normal;
+}
+@mixin flex-center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
